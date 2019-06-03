@@ -1,7 +1,7 @@
 # trovekleaner
 A Knime workflow to correct OCR errors in large collections of documents.
 
-As the blurb says, this workflow fixes OCR errors in large collections of text such as the archived newspaper articles available from www.trove.nla.gov.au. Be warned, however, that the workflow is highly experimental and is not designed to fix every error an a collection. Rather, it uses a combination of methods to identify pairs of likely errors and corrections. From these pairs it builds a dictionary that is used to replace all occurrences of the errors. Basically it is an experiment that got way out of hand.
+As the blurb says, this workflow fixes OCR errors in large collections of text such as the archived newspaper articles available from www.trove.nla.gov.au. Be warned, however, that the workflow is highly experimental and is not designed to fix every error an a collection. Rather, it uses a combination of methods to identify pairs of likely errors and corrections. From these pairs it builds a dictionary that is used to replace all occurrences of the errors. Basically it is an experiment that got way out of hand, and should be treated as such.
 
 To run this workflow, you will first need to have Knime installed. Then all you need to do is download the knwf file and import it from within Knime using the command 'Import KNIME workflow' under 'File'.
 
